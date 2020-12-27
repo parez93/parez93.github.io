@@ -1,120 +1,45 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Federico Parezzan</title>
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="flutter_website">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_website">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>flutter_website</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="box-shadow: 0 8px 6px -6px #999;">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./event.html">Event</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
-
-    <header class="masthead">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <div class="row">
-                        <div class="col"></div>
-                        <div class="col-12 col-md-8 col-lg-6">
-                            <img src="./img/federico.png" alt="Federico Parezzan" class="rounded-circle w-50 p-1 shadow-lg">
-                        </div>
-                        <div class="col"></div>
-                    </div>
-                    <h1 class="font-weight-dark" style="color: white;">Federico Parezzan</h1>
-                    <p class="lead" style="color: white;">Computer scientist</p>
-                    <a style="color: white; background-color: rgb(66,103,178); padding: 0.3rem;"
-                        href="https://www.facebook.com/federico.parezzan/" target="_blank" rel="noopener"
-                        aria-label="Facebook Federico Parezzan" class="fa fa-facebook-official fa-3x mr-3"></a>
-                    <a style="color: white; background-color: rgb(40,103,178); padding: 0.3rem;"
-                        href="https://www.linkedin.com/in/federico-parezzan/" target="_blank" rel="noopener"
-                        aria-label="Linkedin Federico Parezzan" class="fa fa-linkedin fa-3x mr-3"></a>
-                    <a style="color: white; background-color: rgb(33, 31, 31); padding: 0.3rem;"
-                        href="https://github.com/parez93" target="_blank" rel="noopener"
-                        aria-label="Github Federico Parezzan" class="fa fa-github fa-3x mr-3"></a>
-
-
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="py-5">
-        <div class="container"  id="about">
-            <h2 class="font-weight-bold" style="color: #6699cc;">Short bio</h2>
-            <p>
-                My motto is: <em>Homo sum, humani nihil a me alienum puto</em> that means literally: <em>I am a man, I
-                    consider nothing that is human alien to me</em>.
-                </br>
-                I am a dynamic person, very curious and opened to new experiences that can enhance both me and my
-                skills.
-            </p>
-            <p>
-                I completed my BSc in Computer Science (2015) and my MSc in Engineering and Computer Science (2017) at
-                the Department of Computer Science of the University of Verona (Italy).
-                </br>
-                During my studies, I was elected 2 times as Student Representative and the accomplished achievements
-                vary between bureaucratic interventions, detection of problems and critical issues, the creation of an
-                efficient channel of communication between students and professors, and the organization of recreational
-                and cultural events.
-                </br>
-
-                For two years I joined the Microsoft Student Parters program where I could organize technical events, be
-                the speaker and provide support to students about Microsoft Technologies.
-            </p>
-            <p>
-                Currently I'm working in Reply as Consultant developing Java backend services (REST and SOAP) for
-                applications in financial area and in 2018 I got <em>OCA Java SE 8 Programmer I Certification</em> provided by
-                Oracle.
-            </p>
-            </p>
-        </div>
-    </section>
-
-
-
-    <footer>
-        <p style="color: #aeaeae; text-align: center; font-size: 0.8rem;">Federico Parezzan © 2020</p>
-    </footer>
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3962032103');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
-
 </html>
